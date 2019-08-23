@@ -1,0 +1,21 @@
+<div class="container">
+   <div class="section-header">
+        <h1>Hotel <span class="gold-header">Room</span></h1>
+    </div>
+
+    <div class="section-caption">
+            Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elitdunt
+    </div>
+        <div class="line"></div>
+
+<ul class="price-container">
+    <li *ngFor="let price of prices" class="pr-grid">
+        <img src="./../assets/{{price.img}}" alt="">
+        <div class="details">
+            <h2>{{price.hotel}}</h2>
+            <p class="small"><span class="gold">&#8369; {{price.price}}</span> per room</p>
+        </div> 
+            <button class="details btn">BUY NOW</button>
+    </li>
+</ul>
+</div>

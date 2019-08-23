@@ -15,10 +15,11 @@
     position: absolute;
     width: 690px;
     height: 3px;
-    left: 30%;
+    left: 25%;
     top: 13%;
-    background: #FFF8F8;
-    transform: matrix(1, 0, 0, -1, 0, 0);
+    background: #fff8f8;
+    -webkit-transform: matrix(1,0,0,-1,0,0);
+    transform: matrix(1,0,0,-1,0,0);
 }
 .banner-name{
     position: absolute;

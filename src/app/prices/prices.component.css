@@ -3,7 +3,6 @@
 }
 .container{
     position: absolute;
-    top: 64%;
     width: 100%;
 }
 .section-header h1{
@@ -48,7 +47,7 @@ margin: 30px auto;
 height: 585px;
 list-style: none;
 display: inline-block;
-margin: 0 20px;
+margin: 0 5px;
 }
 .pr-grid img{
     width: 100%;

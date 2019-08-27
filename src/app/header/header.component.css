@@ -1,3 +1,4 @@
+
 .banner-img {
     position: absolute;
     width: -webkit-fill-available;
@@ -51,8 +52,8 @@
 }
 .banner-caption{
     width: 609px;
-    height: 137px;
-    margin: 18% auto;
+    height: 18px;
+    margin: 23% auto;
     font-family: roboto;
     font-size: 20px;
     line-height: 23px;
@@ -62,4 +63,133 @@
 
     color: #F2F2F2;
 
+}
+@media (max-width:1024px){
+    .banner-caption {
+
+
+        height:  10px;
+        margin: 29% auto 35%;
+        font-size: 18px;
+    }
+    .line{
+        width: 670px;
+    height: 3px;
+    left: 20%;
+    }
+    .banner-name{
+        left: 30%;
+    }
+    
+}
+
+
+@media (max-width:900px){
+    .banner-caption {
+
+        height: 20px;
+        margin: 26.5% auto 25%;
+        font-size: 16px;
+    }
+    .line{
+        width: 610px;
+    height: 3px;
+    left: 20%;
+    }
+    .banner-name{
+        left: 30%;
+        font-size: 4.29em;
+        top: 7%;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-caption {
+        width: auto;
+        height: 20px;
+        margin: 45% auto 35%;
+        font-size: 15px;
+    }
+    .banner-name{
+        left: 26%;
+        font-size: 50px;
+        top: 10%;
+    }
+    .line{
+        width: 435px;
+    
+    }
+    .bottom{
+        top: 25%;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 690px) {
+    .banner-caption {
+        width: auto;
+        height: 20px;
+        margin: 75% auto 35%;
+        font-size: 18px;
+    }
+    .banner-name{
+        left: 10%;
+    top: 10.7%;
+    font-size: 60px;
+    }
+    .line{
+        width: 415px;
+        left: 3%;
+        
+    }
+    .bottom {
+        top: 35%;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 425px){
+.banner-name {
+    left: 10%;
+    font-size: 55px;
+
+ }
+ .banner-caption {
+    width: 300px;
+    height: 20px;
+    margin: 85% auto 35%;
+    font-size: 0.80em;
+    }
+    .line{
+        width: 350px;
+        left: 3%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    .banner-name {
+        left: 4%;
+        font-size: 50px;
+        top: 10%;
+        width: 92%;
+    
+     }
+     .banner-caption {
+        width: 300px;
+        height: 20px;
+        margin: 95% auto 35%;;
+        font-size: 0.80em;
+        }
+        .line{
+            width: 305px;
+            left: 3%;
+        }
+    }
+
+    @media only screen and (max-width: 320px){
+
+    .banner-caption {
+    width: 300px;
+    height: 20px;
+    margin: 100% auto 35%;
+    font-size: 0.80em;
+    }
 }

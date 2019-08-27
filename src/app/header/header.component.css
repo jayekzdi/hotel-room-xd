@@ -103,24 +103,23 @@
     }
 }
 
-@media (max-width: 768px) {
+@media only screen and (min-width: 690px) and (max-width: 768px) {
     .banner-caption {
-        width: auto;
         height: 20px;
-        margin: 45% auto 35%;
-        font-size: 15px;
+    margin: 31% auto;
+    font-size: 18px;
     }
     .banner-name{
-        left: 26%;
-        font-size: 50px;
+        left: 20%;
+        font-size: 55px;
         top: 10%;
     }
     .line{
         width: 435px;
-    
+        left: 15%;
     }
     .bottom{
-        top: 25%;
+        top: 30%;
     }
 }
 
@@ -128,17 +127,17 @@
     .banner-caption {
         width: auto;
         height: 20px;
-        margin: 75% auto 35%;
+        margin: 45% auto 35%;
         font-size: 18px;
     }
     .banner-name{
-        left: 10%;
+        left: 15%;
     top: 10.7%;
     font-size: 60px;
     }
     .line{
         width: 415px;
-        left: 3%;
+    left: 10%;
         
     }
     .bottom {

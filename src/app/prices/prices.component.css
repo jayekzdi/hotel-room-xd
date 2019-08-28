@@ -179,8 +179,9 @@ color: #f2f2f2;
     .pr-grid img{
         width: 200px;
     }
-    .price-details{
-        display: inline-block;
+    .price-container{
+        position: absolute;
+    left: -10%;
     }
 }
 
@@ -195,7 +196,9 @@ color: #f2f2f2;
     width: 200px;
 }
 .price-container{
-    margin:auto;
+    margin: auto;
+    position: absolute;
+    left: 10%;
 }
 .pr-grid{
     margin: 0;
@@ -213,7 +216,9 @@ color: #f2f2f2;
             width: 200px;
         }
         .price-container{
-            margin:auto;
+            margin: auto;
+            position: absolute;
+            left: 5%;
         }
         .pr-grid{
             margin: 0;

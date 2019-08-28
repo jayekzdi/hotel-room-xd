@@ -183,6 +183,11 @@ color: #f2f2f2;
         position: absolute;
     left: -10%;
     }
+    .btn{   
+        top: -25%;
+        left: 100%;
+
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 375px){
@@ -204,7 +209,11 @@ color: #f2f2f2;
     margin: 0;
 }
 
-     
+.btn{   
+    top: -25%;
+    left: 100%;
+
+}
     }
 
     @media only screen and (max-width: 320px){
@@ -223,5 +232,10 @@ color: #f2f2f2;
         .pr-grid{
             margin: 0;
 
+        }
+        .btn{   
+            top: -25%;
+            left: 100%;
+ 
         }
 }

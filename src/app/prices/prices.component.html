@@ -10,8 +10,8 @@
 
 <ul class="price-container">
     <li *ngFor="let price of prices" class="pr-grid">
-        <img src="./../assets/{{price.img}}" alt="">
-        <div class="details">
+        <img src="./../assets/{{price.img}}" alt="" class="price-details">
+        <div class="details price-details">
             <h2>{{price.hotel}}</h2>
             <p class="small"><span class="gold">&#8369; {{price.price}}</span> per room</p>
         </div> 

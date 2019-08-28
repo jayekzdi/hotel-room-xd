@@ -78,7 +78,8 @@
     left: 20%;
     }
     .banner-name{
-        left: 30%;
+       left: 30%;
+    top: 10%;
     }
     
 }
@@ -104,7 +105,14 @@
 }
 
 @media only screen and (min-width: 690px) and (max-width: 768px) {
-   
+   .banner-name{
+    left: 23%;
+    font-size: 4.29em;
+    top: 7%;
+   }
+   .line{
+       width: 435px;
+   }
 }
 
 @media only screen and (min-width: 425px) and (max-width: 690px) {
@@ -115,14 +123,13 @@
         font-size: 18px;
     }
     .banner-name{
-        left: 15%;
+        left: 25%;
     top: 10.7%;
     font-size: 60px;
     }
     .line{
         width: 415px;
-    left: 10%;
-        
+        left: 20%; 
     }
     .bottom {
         top: 35%;

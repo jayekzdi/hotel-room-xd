@@ -88,8 +88,8 @@
     .banner-caption {
 
         height: 20px;
-        margin: 26.5% auto 25%;
-        font-size: 16px;
+        margin: 34.5% auto 25%;
+        font-size: 18px;
     }
     .line{
         width: 610px;
@@ -104,23 +104,7 @@
 }
 
 @media only screen and (min-width: 690px) and (max-width: 768px) {
-    .banner-caption {
-        height: 20px;
-    margin: 31% auto;
-    font-size: 18px;
-    }
-    .banner-name{
-        left: 20%;
-        font-size: 55px;
-        top: 10%;
-    }
-    .line{
-        width: 435px;
-        left: 15%;
-    }
-    .bottom{
-        top: 30%;
-    }
+   
 }
 
 @media only screen and (min-width: 425px) and (max-width: 690px) {

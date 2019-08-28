@@ -105,6 +105,9 @@ color: #f2f2f2;
     .gold{
         font-size: 1.5rem;
     }
+    .container{
+        top:90%;
+    }
 }
 
 @media screen and (max-width:985px){
@@ -133,4 +136,60 @@ color: #f2f2f2;
     .line{
         margin: 20px auto;
     }
+    .container{
+        top:90%;
+    }
+}
+
+@media only screen and (min-width: 690px) and (max-width: 768px) {
+    .container{
+        position: absolute;
+        width: 100%;
+        top: 95%;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 690px) {
+    .banner-caption {
+        width: auto;
+        height: 20px;
+        margin: 45% auto 35%;
+        font-size: 18px;
+    }
+    .banner-name{
+        left: 15%;
+    top: 10.7%;
+    font-size: 60px;
+    }
+    .line{
+        width: 415px;
+    left: 10%;
+        
+    }
+    .bottom {
+        top: 35%;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 425px){
+    .container{
+        top:95%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    .container {
+        position: absolute;
+        width: 100%;
+        
+       top:100%;
+   }
+     
+    }
+
+    @media only screen and (max-width: 320px){
+
+        .container{
+            top:100%;
+        }
 }
